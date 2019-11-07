@@ -12,13 +12,19 @@ button
     border none
     border-radius 17px
     color color-white
-    float right
     font-size 11px
     font-weight bold
     letter-spacing 2.2px
     opacity 1
     padding 10px 20px
     text-transform uppercase
+
+p
+    color color-text-secondary
+    font-size 15px
+
+.button-right
+    float right
 
 .card
     background color-white
@@ -28,14 +34,26 @@ button
     margin 30px 15px
     .principal-card
         padding 40px
-        .content
+        .main
             padding 10px
         img
             border-radius 10px
             width 100%
     .single-card
-        .content
+        .main
             padding 20px 40px 40px
         img
             border-radius 10px 10px 0px 0px
             width 100%
+
+.container-image
+    position relative
+    text-align center
+    .image-text
+        color color-white
+        font-size 25px
+        font-weight bold
+        position absolute
+        top 80%
+        left 50%
+        transform translate(-50%, -50%)
