@@ -6,7 +6,6 @@ body, h1, h2, h3, h4, h5, h6, a, p, li, ul
 
 body
     background-color color-background
-
 button
     background-color color-primary
     border none
@@ -18,10 +17,20 @@ button
     opacity 1
     padding 10px 20px
     text-transform uppercase
-
+h1
+    color color-text-primary
+    font-size 38px
+    font-weight bold
+    padding 12px 0
+h3
+    color color-text-primary
+    font-size 22px
+    font-weight bold
+    padding 15px 0
 p
     color color-text-secondary
-    font-size 15px
+    font-size 14px
+    font-weight normal
 
 .button-right
     float right
@@ -36,6 +45,10 @@ p
         padding 40px
         .main
             padding 10px
+            .content
+                padding 0 15px
+                .thumb
+                    width calc(100% - 10px)
         img
             border-radius 10px
             width 100%
@@ -45,6 +58,12 @@ p
         img
             border-radius 10px 10px 0px 0px
             width 100%
+        span
+            color color-secondary
+            font-size 10px
+            font-weight bold
+            letter-spacing 2px
+            text-transform uppercase
 
 .container-image
     position relative
